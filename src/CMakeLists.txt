@@ -41,7 +41,7 @@ set(KAZE_SRCS
     lib/nldiffusion_functions.h  lib/nldiffusion_functions.cpp
     lib/utils.h                  lib/utils.cpp)
 
-add_library(KAZE ${KAZE_SRCS})
+add_library(KAZE SHARED ${KAZE_SRCS})
 target_link_libraries(KAZE ${OpenCV_LIBS})
 
 # Feature detector program

@@ -18,8 +18,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
 # ============================================================================ #
 # Where to install the KAZE library
-set(KAZE_INSTALL_PREFIX "/usr/local/kaze/lib" CACHE PATH "Installation Directory")
-set(KAZE_INCLUDE_PREFIX "/usr/local/kaze/include" CACHE PATH "Includes Directory")
+set(KAZE_INSTALL_PREFIX "/usr/local/lib/kaze" CACHE PATH "Installation Directory")
+set(KAZE_INCLUDE_PREFIX "/usr/local/include/kaze" CACHE PATH "Includes Directory")
 
 # ============================================================================ #
 # CPP sources
